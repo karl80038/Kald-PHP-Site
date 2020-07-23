@@ -18,9 +18,10 @@ Mõistatuse lingi alla. Kontrolli, et leht töötab korrektselt. -->
         $question3 = "_" .substr($city3, 1, strlen($city1));
         $question4 = "_" .substr($city4, 1, strlen($city1));
         $question5 = "_" .substr($city5, 1, strlen($city1));
-        echo "<h1>Mis on järgnevate linnade esimene täht?</h1>";
+        echo "<h1>Mis on järgnevate linnade esimeseks täheks?</h1>";
         echo "<br>";
-        echo "<div id='info'>Sisestage ainult algustäht. Sisestatud täht võib olla kirjutatud nii suure tähega või väikse tähega.</div>";
+        echo "<div id='info'> Algustäht vastuses võib olla sisestatud kas suure või väikse tähega, vastuse esimene täht teisendatakse automaatselt suureks täheks.
+        <br> Vastusesse võib märkida ainult tähe, millega linnanimi algab, ent lubatud on ka vastus <br> täissõnana kirjutada.</div>";
     ?>
     <br><br>
     <form action="?leht=moistatus" method="post">

@@ -1,10 +1,11 @@
+/* © Karl-Erik Kald*/
 div.container {
 
     margin: 0px;
     border: 0px solid lightblue;
     background-color: whitesmoke;
     line-height: 150%;
-    min-height: 100%;
+    min-height: 100%; 
     padding-bottom: 6.5em;
     padding-right: 5%;
     padding-left: 15%;
@@ -60,12 +61,14 @@ header {
 header h1 {
     padding: 0;
     margin: 0;
+    padding-left: 10%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 footer h3 {
     padding: 0;
     margin: 0;
+    padding-left: 10%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -91,7 +94,8 @@ main {
     background-color: whitesmoke;
     padding-left: 5em;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 6.5em;
+    /* padding-bottom: 2em; */
     /* min-height: 100%; */
     /* min-width: 80%; */
     min-height: 70vh;
@@ -99,7 +103,7 @@ main {
     position: static;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    z-index: 1;
+    z-index: 0;
 }
 body {
     margin: 0;
@@ -108,8 +112,7 @@ body {
     position: absolute;
     overflow: visible;
     background-color: lavender;
-    clear: both;
-    /* z-index: 1; */
+    z-index: 1;
 }
 nav {
     z-index: 2;
@@ -164,7 +167,10 @@ form {
     padding-top : 2em;
     padding-left : 2em;
     padding-bottom : 2em;
+    padding-right: 2em;
     margin-right: 50em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     width: fit-content;
     background-color: lightgoldenrodyellow;
     border: 1px solid #888888;
@@ -234,7 +240,7 @@ input[type=submit]:checked{
 
 }
 input[type=text] {
-    margin: 1em;
+    margin: 2em;
     background-color: white;
     border: solid 1px #888888;
     color: black;
@@ -242,6 +248,7 @@ input[type=text] {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: medium;
+    width: 350px;
     padding: 13px;
 
 }
@@ -291,6 +298,31 @@ select {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     padding: 13px;
+    background-color: paleturquoise;
+    border: solid 1px paleturquoise;
+    border-radius: 4px;
+    width: 250px;
+    box-shadow: 1px 2px 3px 1px #888888;
 
 
+
+}
+select:hover{
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+option{
+    background-color: whitesmoke;
+    border: solid 1px white;
+    border-radius: 4px;
+    width: 250px;
+    box-shadow: 1px 2px 3px 1px #888888;
+
+}
+option:hover {
+    background-color: lightblue;
+    color: wheat;
 }

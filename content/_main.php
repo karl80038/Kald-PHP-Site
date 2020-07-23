@@ -1,6 +1,11 @@
-<h2>
+<h1>
     Tere tulemast PHP lehele!
 
-</h2>
-<p> Lisa  PHP lehestikku oma css kujundust.</p>
-<p> Kõik lingite all olevad lehed peab olema täidetud oma koodiga</p>
+</h1>
+<!-- <p> Lisa  PHP lehestikku oma css kujundust.</p>
+<p> Kõik lingite all olevad lehed peab olema täidetud oma koodiga</p> -->
+<p> 
+    Tänan, et otsustasite minu loodud veebilehte külastada.<br>
+    Lehtede vahel navigeerimiseks saate kasutada üleval asuvat navigatsiooniriba.
+
+</p>

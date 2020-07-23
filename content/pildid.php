@@ -1,4 +1,4 @@
-
+<h1>Pildi valimine</h1>
 <form method="post" action="">
 
     <select name="images" id="images">
