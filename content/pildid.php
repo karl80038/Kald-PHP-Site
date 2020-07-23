@@ -1,7 +1,7 @@
 
 <form method="post" action="">
 
-    <select name="images">
+    <select name="images" id="images">
         <option value="">Vali pilt</option>
         <?php
         $catalog = 'images';
@@ -14,20 +14,20 @@
         ?>
     </select>
     <input type="submit" value="Näita">
-    <input type="button" value="Kuva juhuslik pilt" onclick="rndgen()";
+    <input type="submit" value="Kuva juhuslik pilt" onclick="rndgen()">
 </form>
 
 <script>
     function rndgen()
     {
-        var sel= document.getElementById(("image"));
-        sel.selectedIndex = Math.floor(Math.random() * sel.length);
+        var sel= document.getElementById(("images"));
+        sel.selectedIndex = Math.floor(Math.random() * (sel.length - 1) + 1 );
     }
     function suurem1()
     {
         var img1 = document.getElementById("img1");
-        img1.style.width = 200px;
-        img1.style.height = 200px;
+        // img1.style.width = 200px;
+        // img1.style.height = 200px;
     }
 </script>
 
